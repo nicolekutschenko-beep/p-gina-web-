@@ -47,8 +47,8 @@ article {
 }
 
 img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     margin-right: 5px;
     object-fit: cover;
     border-radius: 12px;
@@ -176,8 +176,9 @@ iframe {
     }
 
     img {
-        width: 100px;
-        height: 100px;
+        width: 100%;
+        height: auto;
+        max-height: 300px;
     }
 
     button {
