@@ -1,36 +1,127 @@
 <!DOCTYPE html>
-
-<html lang="pt-br">
+ <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style></style>
+    <title>Teoria das Cores</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Meu blog tech</h1>
-    <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
-    <h2>Meu primeiro post</h2>
-    <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.
-    </p>
- 
-</html>
-<header> {
-background-color: purple;
-color: #FFFFFF;
-}
-<h1>Meu blog tech</h1>
-<p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
-</header>
-<main> {
-background-color: #FFFFFF;
-color: purple;
-}
-<h2>Meu primeiro post</h2>
-<p>Por: Marcelo Paludetto</p>
-<p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
-</main>
-text-align: center; 
+
+    <header>
+        <h1>Teoria das Cores</h1>
+        <p>Descubra como as cores influenciam a arte, o design e a nossa percepção.</p>
+    </header>
+
+    <main>
+
+        <article>
+            <img src="https://share.google/jhtwnwPz3Xw8F51Ud" alt="Imagem ilustrativa sobre teoria das cores">
+
+            <div>
+                <h2>O que é a teoria das cores?</h2>
+
+                <p class="artigo-autor">
+                    Por: Júlia Rodrigues Lima
+                </p>
+
+                <p>
+                    A teoria das cores é o estudo de como as cores se relacionam,
+                    se combinam e influenciam a nossa percepção. Ela é muito
+                    importante na arte, no design, na publicidade e na criação
+                    de páginas web. Conhecer as cores ajuda a criar composições
+                    bonitas, equilibradas e que transmitam diferentes sensações.
+                </p>
+
+                <button>
+                    Gostei! <span>0</span>
+                </button>
+
+                <button>
+                    Não gostei! <span>0</span>
+                </button>
+            </div>
+        </article>
+
+
+        <article>
+            <img src="https://share.google/4PJIpQcSh3EHWWC8y" alt="Imagem ilustrativa das cores">
+
+            <div>
+                <h2>Como as cores se combinam?</h2>
+
+                <p class="artigo-autor">
+                    Por: Júlia Rodrigues Lima
+                </p>
+
+                <p>
+                    As cores podem ser organizadas de diferentes maneiras,
+                    como nas combinações de cores complementares, análogas
+                    e tríades. As cores complementares ficam em posições
+                    opostas no círculo cromático e criam bastante contraste.
+                    Já as cores análogas ficam próximas e produzem uma
+                    sensação mais harmoniosa. Essas combinações podem ser
+                    utilizadas para destacar informações e deixar um projeto
+                    visual mais interessante.
+                </p>
+
+                <button>
+                    Gostei! <span>0</span>
+                </button>
+
+                <button>
+                    Não gostei! <span>0</span>
+                </button>
+            </div>
+        </article>
+
+
+        <!-- VÍDEO DO YOUTUBE -->
+
+        <h2>Aprenda mais sobre a teoria das cores</h2>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/098h8y4yKP4"
+            title="Vídeo sobre teoria das cores"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+
+        <!-- ÁREA DE COMENTÁRIOS -->
+
+        <div class="comentarios">
+
+            <h2>Deixe seu comentário</h2>
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Digite seu nome">
+
+            <textarea
+                id="comentarioTexto"
+                placeholder="Escreva seu comentário...">
+            </textarea>
+
+            <button onclick="adicionarComentario()">
+                Enviar comentário
+            </button>
+
+            <div id="listaComentarios"></div>
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
 </body>
+
+</html>
